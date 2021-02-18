@@ -1,22 +1,34 @@
+'''
+author: python-engineer
+url: https://github.com/python-engineer/youtube-analyzer
+about: This file contains code which starts on python-engineer code and is 
+then modified by me. The file mainly extracts youtube statistics of a channel and also
+statistics for each video, all while using a YouTube API.
+'''
+
 import requests
 import json
 import time
 from tqdm import tqdm
 
+# import this class into main.py
 class YTstats:
-
     def __init__(self, api_key, channel_id):
+        '''
+        The api_key and channel_id are from main.py
+        '''
         self.api_key = api_key
         self.channel_id = channel_id
         self.channel_statistics = None
         self.video_data = None
 
     def get_channel_statistics(self):
+        '''
+        Get channel statistics such as total views and subcribers
+        '''
         url = f'https://www.googleapis.com/youtube/v3/channels?part=statistics&id={self.channel_id}&key={self.api_key}'
-        # print(url)
         json_url = requests.get(url)
         data = json.loads(json_url.text)
-        # print(data)
         try:
             data = data["items"][0]["statistics"]
         except:
@@ -26,6 +38,10 @@ class YTstats:
         return data
 
     def get_channel_video_data(self):
+        '''
+        Get video statistics such as likes/dislikes using video id
+        '''
+
         # 1) get video ids
         channel_videos = self._get_channel_videos(limit=50)
         print(len(channel_videos))
@@ -42,6 +58,9 @@ class YTstats:
         return channel_videos
 
     def _get_single_video_data(self, video_id, part):
+        '''
+        Get certain information for a video such as its statistics
+        '''
         url = f"https://www.googleapis.com/youtube/v3/videos?part={part}&id={video_id}&key={self.api_key}"
         json_url = requests.get(url)
         data = json.loads(json_url.text)
@@ -54,6 +73,9 @@ class YTstats:
         return data
 
     def _get_channel_videos(self, limit=None):
+        '''
+        Obtain all video ids for youtube channel
+        '''
         url = f"https://www.googleapis.com/youtube/v3/search?key={self.api_key}&channelId={self.channel_id}&part=id&order=date"
         if limit is not None and isinstance(limit, int):
             url += "&maxResults=" + str(limit)
@@ -69,6 +91,9 @@ class YTstats:
         return vid
 
     def _get_channel_videos_per_page(self, url):
+        '''
+        Navigation through pages of channel videos
+        '''
         json_url = requests.get(url)
         data = json.loads(json_url.text)
         channel_videos = dict()
@@ -89,6 +114,9 @@ class YTstats:
         return channel_videos, nextPageToken
 
     def dump(self):
+        '''
+        Dump all data into a json file
+        '''
         if self.video_data is None:
             print('No data for video data')
             return

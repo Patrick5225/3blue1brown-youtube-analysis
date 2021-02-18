@@ -1,3 +1,9 @@
+'''
+author: Patrick Chao
+about: This file extracts comments (not including replies) for each YouTube
+video using its video id.
+'''
+
 import requests
 import json
 import pandas as pd
@@ -5,7 +11,9 @@ import time
 from tqdm import tqdm
 
 API_KEY = 'enter_key_here'
-nextToken = ''
+nextToken = '' # used for navigating through pages
+
+# copied and pasted from video_ids.py
 videoIds = ['lG4VkPoG3ko', 'b3NxrZOu_CE', 'X8jsijhllIA', 'mH0oCDa74tE', 'wTJI_WuZSwE',
             'QvuQH4_05LI', 'pq9LcwC7CoY', 'D__UaR5MQao', 'elQVZLLiod4', '4PDoT7jtxmw',
             'cEvgcoyZvB4', 'IAEASE5GjdI', 'ZxYOEwM6Wbk', '5PcpBw5Hbwo', 'yBw67Fb31Cs', 
@@ -43,6 +51,7 @@ for id in tqdm(videoIds):
                 print(data)
                 break
 
+            # obtain data for each YouTube comment
             for item in data['items']:
                 try:
                     snippet = {
@@ -56,6 +65,7 @@ for id in tqdm(videoIds):
                         'totalReplyCount':item['snippet']['totalReplyCount']
                     }
                 except:
+                    # in case there are missing fields
                     pass
 
                 comments.append(snippet)

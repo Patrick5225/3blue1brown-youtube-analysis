@@ -1,0 +1,113 @@
+videoId,title,publishDate,description,viewCount,likeCount,dislikeCount,commentCount
+lG4VkPoG3ko,The medical test paradox: Can redesigning Bayes rule help?,2020-12-22 17:42:00,"About Likelihood Ratios, also sometimes called Bayes Factors*.",467462,28056,184,1986
+b3NxrZOu_CE,"Hamming codes part 2, the elegance of it all",2020-09-04 15:36:24,Part 1: https://youtu.be/X8jsijhllIA,401937,21380,99,1311
+X8jsijhllIA,Hamming codes and error correction,2020-09-04 15:32:50,A discovery-oriented introduction to error correction codes.,681626,33449,197,1408
+mH0oCDa74tE,"Group theory and the 196,883-dimensional monster",2020-08-19 14:01:39,"An introduction to group theory, and the monster group.",1319809,69545,662,4374
+wTJI_WuZSwE,The impossible chessboard puzzle,2020-07-05 18:50:36,An information puzzle with an interesting twist,725076,25560,468,1751
+QvuQH4_05LI,Tips to be a better problem solver [Last lecture] | Lockdown math ep. 10,2020-05-22 20:14:56,"Tips on problem-solving, with examples from geometry, trig, and probability.",404540,14105,112,805
+pq9LcwC7CoY,Intuition for i to the power i | Lockdown math ep. 9,2020-05-15 21:23:19,"i^i, visualized and explained.",256077,6574,98,632
+D__UaR5MQao,The DP-3T algorithm for contact tracing (via Nicky Case),2020-05-14 15:00:01,"Though many contact tracing apps involve location tracking, they don’t have to.",302379,21809,430,1618
+elQVZLLiod4,The power tower puzzle | Lockdown math ep. 8,2020-05-12 19:59:48,A fun puzzle stemming from repeated exponentiation.,416793,11907,136,944
+4PDoT7jtxmw,"What makes the natural log ""natural""? | Lockdown math ep. 7",2020-05-08 20:22:12,All about ln(x).,473946,12118,171,979
+cEvgcoyZvB4,Logarithm Fundamentals | Lockdown math ep. 6,2020-05-05 20:36:51,Back to the basics with logarithms.,332942,9315,132,625
+IAEASE5GjdI,Imaginary interest rates | Lockdown math ep. 5,2020-05-01 20:11:37,"Compound interest, e, and how it relates to circles.",321500,9647,121,756
+ZxYOEwM6Wbk,What is Euler's formula actually saying? | Lockdown math ep. 4,2020-04-28 19:58:20,What does it mean to compute e^{pi i}?,439491,15376,141,1339
+5PcpBw5Hbwo,Complex number fundamentals | Lockdown math ep. 3,2020-04-24 20:31:26,Intro to the geometry complex numbers.,771907,19390,393,1516
+yBw67Fb31Cs,Trigonometry fundamentals | Lockdown math ep. 2,2020-04-21 20:51:44,Intro to trig with a lurking mystery about cos(x)^2,592541,19486,172,1101
+MHXO86wKeDY,The simpler quadratic formula | Lockdown math ep. 1,2020-04-17 20:04:24,Another view on the quadratic formula.,795554,34881,301,2064
+ppWPuXsnf1Q,Lockdown math announcement,2020-04-16 21:25:09,Full playlist: https://www.youtube.com/playlist?list=PLZHQObOWTQDP5CVelJJ1bNDouqrAhVPev,656073,45238,225,2642
+ZA4JkHKZM50,"Why “probability of 0” does not mean “impossible” | Probabilities of probabilities, part 2",2020-04-12 15:41:30,An introduction to probability density functions,1469471,43654,863,2747
+gxAaO2rsdIs,Simulating an epidemic,2020-03-27 19:47:30,Experiments with toy SIR models,4341620,145476,1235,6407
+8idr1WZ1A7Q,"Binomial distributions | Probabilities of probabilities, part 1",2020-03-15 18:28:16,Part 2: https://youtu.be/ZA4JkHKZM50,1235723,55855,454,2061
+Kas0tIxDvrg,Exponential growth and epidemics,2020-03-08 16:58:19,"A good time for a primer on exponential and logistic growth, no?",5685516,164994,1797,6761
+U_85TaXbeIo,The quick proof of Bayes' theorem,2019-12-22 14:45:25,Including some added words on independence.,334169,10951,88,433
+HZGCoVF3YvM,Bayes theorem,2019-12-22 14:31:56,Perhaps the most important formula in probability.,1085742,46371,430,2079
+Agbh95KyWxY,"Q&A with Grant (3blue1brown), windy walk edition",2019-11-23 01:00:14,"To mark 2^21 subscribers, in a style totally not stolen from Veritasium.",354052,16408,115,1275
+EK32jo7i5LQ,Why do prime numbers make these spirals?,2019-10-08 17:02:51,A story of mathematical play.,2825270,103982,965,5126
+M64HUIJFTZM,"The unexpectedly hard windmill question (2011 IMO, Q2)",2019-08-04 17:03:51,"The famous (infamous?) ""windmill"" problem on the 2011 IMO",3480492,111030,1549,5512
+v0YEaeIClKY,Understanding e to the i pi in 3.14 minutes | DE5,2019-07-07 14:08:18,Euler's formula intuition from relating velocities to positions.,1146416,37091,290,1527
+-qgreAUpPwM,Pure Fourier series animation montage,2019-07-03 04:05:19,Because why not?,517020,16483,150,1210
+r6sGWTCMz2k,But what is a Fourier series? From heat flow to circle drawings | DE4,2019-06-30 14:50:20,"Fourier series, from the heat equation to sines to cycles.",4731439,70372,566,2521
+ToIXSwZ1pJU,Solving the heat equation | DE3,2019-06-16 16:31:00,"Boundary conditions, and setup for how Fourier series are useful.",653336,18528,119,836
+ly4S0oi3Yz8,But what is a partial differential equation?  | DE2,2019-04-21 16:53:21,"The heat equation, as an introductory PDE.",1217609,38769,211,1821
+p_di4Zn4wz4,"Differential equations, studying the unsolvable | DE1",2019-03-31 15:15:50,An overview of what ODEs are all about,1916435,55203,346,2819
+jBsC34PxzoM,"Cramer's rule, explained geometrically | Essence of linear algebra, chapter 12",2019-03-17 04:35:22,"This rule seems random to many students, but it has a beautiful reason for being true.",613898,14411,106,630
+brU5yLm9DZM,How colliding blocks act like a beam of light...to compute pi.,2019-02-03 16:23:07,The third and final part of the block collision sequence.,749131,28754,168,1441
+jsYwFizhncE,Why do colliding blocks compute pi?,2019-01-20 16:40:38,Part 1: https://youtu.be/HEfHFsfGXjs,2804156,96290,674,3810
+HEfHFsfGXjs,The most unexpected answer to a counting puzzle,2019-01-13 16:12:47,"If this doesn't blow your mind, I don't know what will.",5886243,160751,2202,4770
+GNcFjFmqEc8,But why is a sphere's surface area four times its shadow?,2018-12-02 20:08:11,The formula is no mere coincidence.,3895592,82578,1437,3723
+yuVqxCSsE7c,Sneaky Topology | The Borsuk-Ulam theorem and stolen necklaces,2018-11-18 14:09:20,Solving a discrete math puzzle using topology.,467113,16343,124,1020
+_UoTTq651dE,Why 5/3 is a fundamental constant for turbulence,2018-11-07 20:20:32,Some mathematical order amidst the chaos of turbulence.,512573,19960,144,775
+zjMuIxRvygQ,"Quaternions and 3d rotation, explained interactively",2018-10-26 16:31:52,Go experience the explorable videos: https://eater.net/quaternions,532806,14374,161,568
+d4EgbgTm0Bg,Visualizing quaternions (4d numbers) with stereographic projection,2018-09-06 14:59:33,How to think about this 4d number system in our 3d space.,1970148,51445,551,3340
+Qe6o9j4IjTo,Q&A with Grant Sanderson (3blue1brown),2018-08-24 16:34:02,To commemorate crossing 2^20 subscribers.,657019,30631,110,2255
+pQa_tWZmlGs,Why slicing a cone gives an ellipse,2018-08-01 15:13:51,"Dandelin spheres, conic sections, and a view of genius in math.",1130494,36559,497,2067
+VcgJro0sTiM,Other math channels you'd enjoy,2018-06-27 16:29:07,Think Twice: https://www.youtube.com/channel/UC9yt3wz-6j19RwD5m5f6HSg,172739,10484,49,474
+rB83DpBJQsE,"Divergence and curl:  The language of Maxwell's equations, fluid flow, and more",2018-06-21 18:34:59,(See below for small-but-important error correction),1967257,67769,487,2777
+CfW845LNObM,The other way to visualize derivatives,2018-05-19 14:09:16,A visual for derivatives which generalizes more nicely to topics beyond calculus.,2845147,71298,1139,2882
+8GPy_UMV-08,"The Wallis product for pi, proved geometrically",2018-04-20 18:59:28,A new and more circularly proof of a famous Wallis product for pi.,488596,13835,202,953
+b7FxPsqfkOY,Winding numbers and domain coloring,2018-03-24 14:42:51,An algorithm for numerically solving certain 2d equations.,703843,22349,204,1430
+bcPTiiiYDs8,How pi was almost 6.283185...,2018-03-14 13:05:32,"Happy pi day!  Did you know that in some of his notes, Euler used the symbol pi to represent 6.28..., before the more familiar 3.14... took off as a standard?",881470,23268,333,1398
+d-o3eB9sfls,Why is pi here?  And why is it squared?  A geometric answer to the Basel problem,2018-03-02 16:23:29,"A most beautiful proof of the Basel problem, using light.",2962137,68812,1312,3424
+MBnnXbOM5S4,"The more general uncertainty principle, beyond quantum",2018-02-25 00:25:00,"The Heisenberg uncertainty principle is just one specific example of a much more general, relatable, non-quantum phenomenon.",1277454,38324,425,1739
+spUNpyF58BY,But what is the Fourier Transform?  A visual introduction.,2018-01-26 18:47:48,An animated introduction to the Fourier Transform.,5389489,165947,1427,6793
+VvCytJvd4H0,The three utilities puzzle with math/science YouTubers,2017-12-23 16:43:38,Featuring quite a few science/math YouTubers!,712157,26982,345,2484
+liL66CApESk,Q&A #2 + Net Neutrality Nuance,2017-12-14 15:57:43,Questions: http://3b1b.co/questions,139538,4620,106,331
+OkmNXy7er84,The hardest problem on the hardest test,2017-12-08 15:04:57,A difficult geometry puzzle with an elegant solution.,9092044,240937,3927,15982
+tIeHLnjs5U8,"Backpropagation calculus | Deep learning, chapter 4",2017-11-03 14:08:09,Brought to you by you: http://3b1b.co/nn3-thanks,1387369,29749,225,1483
+Ilg3gGewQ5U,"What is backpropagation really doing? | Deep learning, chapter 3",2017-11-03 14:03:37,What's actually happening to a neural network as it learns?,2251625,41564,344,1077
+IHZwWFHWa-w,"Gradient descent, how neural networks learn | Deep learning, chapter 2",2017-10-16 16:48:20,Home page: https://www.3blue1brown.com/,3373531,75178,548,2304
+aircAruvnKk,"But what is a Neural Network? | Deep learning, chapter 1",2017-10-05 15:11:25,Home page: https://www.3blue1brown.com/,8608657,221164,1978,5249
+MzRCDLre1b4,Some light quantum mechanics (with minutephysics),2017-09-13 14:06:26,The math of superposition and quantum states.,1370186,34871,375,1577
+zwAD6dRSVyI,Thinking outside the 10-dimensional box,2017-08-11 22:41:08,Visualizing high-dimensional spheres to understand a surprising puzzle.,2541037,53075,1251,3264
+3s7h2MHQtxc,Hilbert's Curve: Is infinite math useful?,2017-07-21 15:33:50,"Space-filling curves, turning visual information into audio information, and the connection between infinite and finite math (this is a re-upload of an older video which had much worse audio).",1398934,30626,450,1480
+S9JGmA5_unY,How secure is 256 bit security?,2017-07-08 14:19:39,Supplement to the cryptocurrency video: How hard is it to find a 256-bit hash just by guessing and checking?  What kind of computer would that take?,1872385,61670,732,2418
+bBC-nXj3Ng4,But how does bitcoin actually work?,2017-07-07 16:51:37,The math behind cryptocurrencies.,6954533,177288,2268,17248
+QJYmyhnaaek,"All possible pythagorean triples, visualized",2017-05-26 17:58:15,"The pythagorean triples like (3, 4, 5), (5, 12, 13), etc. all follow a nice pattern which complex numbers expose in a beautiful way.",2365969,52799,749,2599
+NaL_Cb42WyY,Pi hiding in prime regularities,2017-05-19 15:41:54,"A story of pi, primes, complex numbers, and how number theory braids them together.",1469930,33459,414,1911
+3d6DsjIBzJ4,"Taylor series | Essence of calculus, chapter 11",2017-05-07 14:06:12,"Taylor polynomials are incredibly powerful for approximations, and Taylor series can give new ways to express functions.",1998238,56618,424,2945
+BLkz5LGWihw,"Higher order derivatives | Essence of calculus, chapter 10",2017-05-07 14:05:35,"A very quick primer on the second derivative, third derivative, etc.",423343,9184,57,320
+FnJqaIESC2s,"What does area have to do with slope? | Essence of calculus, chapter 9",2017-05-06 13:53:16,"Integrals are used to find the average of a continuous variable, and this can offer a perspective on why integrals and derivatives are inverses, distinct from the one shown in the last video.",782910,17360,202,689
+rfG8ce4nNh0,"Integration and the fundamental theorem of calculus | Essence of calculus, chapter 8",2017-05-05 15:05:21,What is an integral?  How do you think about it?,1019018,21907,239,865
+kfF40MiS7zA,"Limits, L'Hôpital's rule, and epsilon delta definitions | Essence of calculus, chapter 7",2017-05-04 15:05:18,"Formal derivatives, the epsilon-delta definition, and why L'Hôpital's rule works.",981634,22180,226,1075
+qb40J4N1fa4,"Implicit differentiation, what's going on here? | Essence of calculus, chapter 6",2017-05-03 15:38:43,"Implicit differentiation can feel weird, but what's going on makes much more sense once you view each side of the equation as a two-variable function, f(x, y).",1045714,21001,258,975
+m2MIpDrF7Es,"What's so special about Euler's number e? | Essence of calculus, chapter 5",2017-05-02 15:09:46,What is e?  And why are exponentials proportional to their own derivatives?,1914508,43296,505,1566
+YG15m2VwSjA,"Visualizing the chain rule and product rule | Essence of calculus, chapter 4",2017-05-01 15:19:28,"A visual explanation of what the chain rule and product rule are, and why they are true.",969461,21977,194,1163
+S0_qX4VJhMQ,"Derivative formulas through geometry | Essence of calculus, chapter 3",2017-04-30 15:24:09,"A few derivative formulas, such as the power rule and the derivative of sine, demonstrated with geometric intuition.",1658205,37950,351,2477
+9vKqVkMQHKk,"The paradox of the derivative | Essence of calculus, chapter 2",2017-04-29 16:24:03,"Derivatives center on the idea of change in an instant, but change happens across time while an instant consists of just one moment.  How does that work?",1900570,47038,540,2625
+WUvTyaaNkzM,"The Essence of Calculus, Chapter 1",2017-04-28 15:58:48,What might it feel like to invent calculus?,4147723,115959,875,4511
+mvmuCPvRoWQ,Euler's formula with introductory group theory,2017-03-03 22:07:09,"Intuition for e^(pi i) = -1, and an intro to group theory.",1511642,36074,368,2003
+gB9n2gHsHN4,Fractals are typically not self-similar,2017-01-27 17:29:08,An explanation of fractal dimension.,2451114,62511,831,3944
+IxNb1WG_Ido,Tattoos on Math,2017-01-06 18:05:41,"After a friend of mine got a tattoo with a representation of the cosecant function, it got me thinking about how there's another sense in which this function is a tattoo on math.",645148,19971,277,981
+sD0NjbwqlYw,Visualizing the Riemann zeta function and analytic continuation,2016-12-09 17:50:56,Unraveling the enigmatic function behind the Riemann hypothesis,2809413,59095,781,3139
+bdMfjfT0lKk,"Binary, Hanoi, and Sierpinski, part 2",2016-11-25 17:30:46,"After seeing how binary counting can solve the towers of Hanoi puzzle in the last video, here we see how ternary counting solve a constrained version of the puzzle, and how this gives a way to walk through a Sierpinski triangle graph structure.",200083,6708,43,548
+R7p-nPg8t_g,3blue1brown channel trailer,2016-11-25 17:29:36,"3blue1brown is a channel animating math.  Check out the playlists below for expositions of various neat topics and some clever proofs, and see the ""Essence of ______"" series for some more student-focussed material.",370277,3142,62,129
+2SUvWfNJSsM,"Binary, Hanoi and Sierpinski, part 1",2016-11-25 17:30:20,"Binary counting can solve the towers of Hanoi puzzle, and if this isn't surprising enough, it can lead to a method for finding a curve that fills Sierpinski's triangle (which I get to in part 2).",465941,12034,122,595
+AmgkSdhK4K8,Who cares about topology?   (Inscribed rectangle problem),2016-11-04 21:48:23,"An unsolved conjecture, and a clever topological solution to a weaker version of the question.",1979089,56196,574,2908
+TgKwz5Ikpc8,"Abstract vector spaces | Essence of linear algebra, chapter 15",2016-09-24 19:29:09,Home page: https://www.3blue1brown.com/,777139,27342,118,2295
+PFDu9oVAE-g,"Eigenvectors and eigenvalues | Essence of linear algebra, chapter 14",2016-09-15 18:22:14,Home page: https://www.3blue1brown.com/,2180255,44199,403,2307
+P2LTAUO1TdA,"Change of basis | Essence of linear algebra, chapter 13",2016-09-11 17:56:20,Home page: https://www.3blue1brown.com/,956276,17186,167,923
+BaM7OCEm3G0,Cross products in the light of linear transformations | Essence of linear algebra chapter 11,2016-09-01 03:54:15,Home page: https://www.3blue1brown.com/,649156,10704,131,841
+eu6i7WJeinw,"Cross products | Essence of linear algebra, Chapter 10",2016-09-01 03:54:15,Home page: https://www.3blue1brown.com/,929599,14544,130,496
+LyGKycYT2v0,"Dot products and duality | Essence of linear algebra, chapter 9",2016-08-24 19:20:58,Home page: https://www.3blue1brown.com/,1257817,22426,268,1410
+v8VSDg_WQlA,"Nonsquare matrices as transformations between dimensions | Essence of linear algebra, chapter 8",2016-08-16 21:59:23,Home page: https://www.3blue1brown.com/,848985,13370,95,518
+uQhTuRlWMxw,"Inverse matrices, column space and null space | Essence of linear algebra, chapter 7",2016-08-15 22:00:22,Home page: https://www.3blue1brown.com/,1456664,27901,197,1413
+Ip3X9LOh2dk,"The determinant | Essence of linear algebra, chapter 6",2016-08-10 22:31:18,Home page: https://www.3blue1brown.com/,1996681,42221,258,2738
+rHLEWRxRGiM,"Three-dimensional linear transformations | Essence of linear algebra, chapter 5",2016-08-09 22:01:39,Home page: https://www.3blue1brown.com/,1011770,15619,95,443
+XkY2DOUCWMU,"Matrix multiplication as composition | Essence of linear algebra, chapter 4",2016-08-08 22:20:43,Home page: https://www.3blue1brown.com/,1623203,31573,189,1863
+kYB8IZa5AuE,"Linear transformations and matrices | Essence of linear algebra, chapter 3",2016-08-07 21:39:19,Home page: https://www.3blue1brown.com/,2487931,50789,375,2883
+k7RM-ot2NWY,"Linear combinations, span, and basis vectors | Essence of linear algebra, chapter 2",2016-08-06 23:49:28,Home page: https://www.3blue1brown.com/,2567692,46428,291,1796
+fNk_zzaMoSs,"Vectors, what even are they? | Essence of linear algebra, chapter 1",2016-08-06 00:05:49,Home page: https://www.3blue1brown.com/,4137282,77250,527,2222
+kjBOesZCoqc,Essence of linear algebra preview,2016-08-05 01:01:44,Home page: https://www.3blue1brown.com/,1610840,25951,149,1066
+sULa9Lc4pck,Triangle of Power,2016-06-26 05:51:12,"In math, exponents, logarithms, and roots all circle around the same idea, but the notation for each varies radically.  The triangle of power is an alternate notation, which I find to be absolutely beautiful.",634797,22432,540,1417
+Iq1a_KJTWJ8,Snell's law proof using springs,2016-04-01 20:27:08,"This is a supplement to the Brachistochrone video, proving Snell's law with a clever little argument by Mark Levi.",142899,3980,32,177
+Cld0p3a43fU,"The Brachistochrone, with Steven Strogatz",2016-04-01 20:27:08,"Steven Strogatz and I talk about a famous historical math problem, a clever solution, and a modern twist.",849887,19843,182,1149
+RU0wScIj36o,Fractal charm: Space filling curves,2016-01-17 01:43:18,A montage of space-filling curves meant as a supplement to the Hilbert curve video.,1205757,28022,380,809
+cyW5z-M2yzw,Music And Measure Theory,2015-10-04 02:14:13,A connection between a classical puzzle about rational numbers and what makes music harmonious.,995299,25237,355,1188
+1SMmc9gQmHQ,How to count to 1000 on two hands,2015-09-18 21:53:13,"Typically when we think of counting on two hands, we count up to 10, but fingers can contain much more information than that!  This video shows how to think about counting in binary.",352709,10127,172,1055
+XFDM1ip5HdU,What does it feel like to invent math?,2015-08-14 01:20:50,"An exploration of infinite sums, from convergent to divergent, including a brief introduction to the 2-adic metric, all themed on that cycle between discovery and invention in math.",2677351,55179,2615,4833
+-9OUyo8NFZg,Euler's Formula and Graph Duality,2015-06-21 06:05:43,"A description of planar graph duality, and how it can be applied in a particularly elegant proof of Euler's Characteristic Formula.",357056,7748,88,309
+K8P8uFahAgc,Circle Division Solution,2015-05-24 05:25:09,"An explanation of a neat circle puzzle involving combinatorics, graphs, Euler's characteristic formula and pascal's triangle.",469634,13939,94,657
+84hEmGHw3J8,A Curious Pattern Indeed,2015-04-11 08:19:03,A teaser for some future videos regarding a pattern which lures an unsuspecting doodler into thinking it will be powers of two.,462152,9308,185,190
+zLzLxVeqdQg,Euler's Formula Poem,2015-03-05 06:15:23,"A poem about why e to the pi i equals -1, based on this video: http://youtu.be/F_0yfvm0UoU",118172,3496,58,133
+F_0yfvm0UoU,"e to the pi i, a nontraditional take (old version)",2015-03-05 06:15:22,Wait!  There's an improved version: https://youtu.be/mvmuCPvRoWQ,2292317,33773,2561,2028

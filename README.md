@@ -16,4 +16,6 @@
 **Collecting YouTube Statistics GitHub**: https://github.com/python-engineer/youtube-analyzer
 
 ## Tableau Dashboard
-<img src="/images/tableau_dashboard.png" width="700" height="350">
+https://public.tableau.com/profile/patrick.chao#!/vizhome/3blue1brown/VideosDashboard
+
+<img src="/images/tableau_dashboard.PNG" width="1000" height="500">

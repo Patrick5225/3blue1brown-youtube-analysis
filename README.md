@@ -25,24 +25,43 @@ Tableau public: https://public.tableau.com/profile/patrick.chao#!/vizhome/3blue1
 
 ## MySQL Queries
 ### What are the top 5 most liked videos?
-
 <img src="/images/query_top_5_liked_videos.PNG" width="600" height="400">
 
 ### Which videos have the highest dislike percentage?
-<img src="/images/query_dislike_ratio.PNG" width="900" height="500">
+<details>
+  <summary>Click to expand</summary>
+  <img src="/images/query_dislike_ratio.PNG" width="900" height="500">
+</details>
 
 ### Which users have commented the most often across all the YouTube videos from 3Blue1Brown?
-<img src="/images/query_top_commentors.PNG" width="700" height="500">
+<details>
+  <summary>Click to expand</summary>
+  <img src="/images/query_top_commentors.PNG" width="700" height="500">
+</details>
 
 ### For the user who has the most amount of comments, what were the top 5 videos that they commented on?
-<img src="/images/query_top_commentor_videos.PNG" width="800" height="500">
+<details>
+  <summary>Click to expand</summary>
+  <img src="/images/query_top_commentor_videos.PNG" width="800" height="500">
+</details>
+
+### Which comment has the most amount of likes, and on which video was it commented on?
+<details>
+  <summary>Click to expand</summary>
+  <img src="/images/query_most_liked_comment.PNG" width="800" height="500">
+</details>
 
 ## MySQL: Importing Data and Creating Tables
 
 ### Importing the Data
-<img src="/images/sql_loading_data.PNG" width="900" height="500">
+<details>
+  <summary>Click to expand</summary>
+  <img src="/images/sql_loading_data.PNG" width="900" height="500">
+</details>
 
 ### Creating the Schema and Tables
-<img src="/images/sql_table1.PNG" width="400" height="400">
-
-<img src="/images/sql_table2.PNG" width="400" height="400">
+<details>
+  <summary>Click to expand</summary>
+  <img src="/images/sql_table1.PNG" width="400" height="400"></br>
+  <img src="/images/sql_table2.PNG" width="400" height="400">
+</details>

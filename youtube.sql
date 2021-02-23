@@ -31,6 +31,10 @@ CREATE TABLE comments(
 		REFERENCES video_stats(videoId)
 );
     
+# run these to enable loading local data
+SHOW GLOBAL VARIABLES LIKE 'local_infile';
+SET GLOBAL local_infile=1;
+    
 # importing data from csv files
 LOAD DATA LOCAL INFILE 'D:\\patri\\Documents\\Github\\3blue1brown-youtube-analysis\\data\\youtube_stats.csv'
 INTO TABLE video_stats
@@ -41,6 +45,7 @@ IGNORE 1 ROWS;
 
 LOAD DATA LOCAL INFILE 'D:\\patri\\Documents\\Github\\3blue1brown-youtube-analysis\\data\\youtube_comments.csv'
 INTO TABLE comments
+CHARACTER SET latin1
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"' 
 LINES TERMINATED BY '\n'
@@ -95,3 +100,12 @@ GROUP BY s.title
 ORDER BY COUNT(c.authorName) DESC
 LIMIT 5;
 
+# Which comment has the most amount of likes?
+SELECT
+	s.title, c.video_comment, c.authorName, c.likeCount, c.totalReplyCount
+FROM video_stats s
+INNER JOIN comments c
+	ON s.videoId = c.videoId
+WHERE c.likeCount = (SELECT
+						MAX(likeCount)
+					FROM comments);

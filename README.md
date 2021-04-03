@@ -20,48 +20,130 @@ Tableau public: https://public.tableau.com/profile/patrick.chao#!/vizhome/3blue1
 
 <img src="/images/tableau_dashboard.PNG" width="1000" height="500">
 
+## MySQL: Creating Tables and Database Design
+### Creating the Schema and Tables
+```sql
+CREATE SCHEMA youtube;
+
+CREATE TABEL video_stats(
+  videoId VARCHAR(30) NOT NULL PRIMARY KEY,
+  title VARCHAR(200),
+  publishDate DATETIME,
+  video_description TEXT,
+  viewCount INT,
+  likeCount INT,
+  dislikeCount INT,
+  commentCount INT
+);
+
+CREATE TABLE comments(
+  videoId VARCHAR(30) NOT NULL,
+  commentId VARCHAR(50) NOT NULL PRIMARY KEY,
+  video_comment TEXT,
+  authorName VARCHAR(250),
+  authorId VARCHAR(50),
+  likeCount INT,
+  commentDate DATETIME,
+  totalReplyCount INT,
+  FOREIGN KEY (videoId)
+    REFERENCES video_stats(videoId)
+);
+```
+
 ## MySQL Database Design
 <img src="/images/youtube_diagram.PNG" width="700" height="350">
 
 ## MySQL Queries
 ### What are the top 5 most liked videos?
+```sql
+SELECT
+  title,
+  publishDate,
+  likeCount
+FROM video_stats
+GROUP BY videoId
+ORDER BY likeCount DESC
+LIMIT 5;
+```
 <img src="/images/query_top_5_liked_videos.PNG" width="600" height="400">
 
 ### Which videos have the highest dislike percentage?
+```sql
+SELECT
+  title,
+  CONCAT(ROUND(dislikeCount/(likeCount+dislikeCount) * 100, 2),'%') AS 'Dislike Ratio',
+  likeCount,
+  dislikeCount
+FROM video_stats
+GROUP BY videoId
+ORDER BY 2 DESC
+LIMIT 3;
+```
+
 <details>
   <summary>Click to expand</summary>
   <img src="/images/query_dislike_ratio.PNG" width="900" height="500">
 </details>
 
 ### Which users have commented the most often across all the YouTube videos from 3Blue1Brown?
+```sql
+SELECT
+  authorId,
+  authorName,
+  COUNT(authorName) AS 'Number of Comments'
+FROM comments
+GROUP BY authorId
+ORDER BY COUNT(authorName) DESC
+LIMIT 10;
+```
+
 <details>
   <summary>Click to expand</summary>
   <img src="/images/query_top_commentors.PNG" width="700" height="500">
 </details>
 
 ### For the user who has the most amount of comments, what were the top 5 videos that they commented on?
+```sql
+SELECT
+  s.title,
+  c.authorName AS 'Commentor Name',
+  COUNT(c.authorName) AS 'Number of Comments'
+FROM video_stats s
+INNER JOIN comments c
+  ON s.videoId = c.videoId
+WHERE authorId = (SELECT
+                    authorId
+                 FROM comments
+                 GROUP BY authorId
+                 ORDER BY COUNT(authorName) DESC
+                 LIMIT 1)
+GROUP BY s.title
+ORDER BY COUNT(c.authorName) DESC
+LIMIT 5;
+```
 <details>
   <summary>Click to expand</summary>
   <img src="/images/query_top_commentor_videos.PNG" width="800" height="500">
 </details>
 
 ### Which comment has the most amount of likes, and on which video was it commented on?
+```sql
+SELECT
+  s.title,
+  c.video_comment,
+  c.authorName,
+  c.likeCount,
+  c.totalReplyCount
+FROM video_stats s
+INNER JOIN comments c
+  ON s.videoId = c.videoId
+WHERE c.likeCount = (SELECT
+                      MAX(likeCount)
+                    FROM comments);
+```
+
 <details>
   <summary>Click to expand</summary>
   <img src="/images/query_most_liked_comment.PNG" width="800" height="500">
 </details>
 
-## MySQL: Importing Data and Creating Tables
-
-### Importing the Data
-<details>
-  <summary>Click to expand</summary>
-  <img src="/images/sql_loading_data.PNG" width="900" height="500">
-</details>
-
-### Creating the Schema and Tables
-<details>
-  <summary>Click to expand</summary>
-  <img src="/images/sql_table1.PNG" width="400" height="400"></br>
-  <img src="/images/sql_table2.PNG" width="400" height="400">
-</details>

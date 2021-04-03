@@ -25,7 +25,7 @@ Tableau public: https://public.tableau.com/profile/patrick.chao#!/vizhome/3blue1
 ```sql
 CREATE SCHEMA youtube;
 
-CREATE TABEL video_stats(
+CREATE TABLE video_stats(
   videoId VARCHAR(30) NOT NULL PRIMARY KEY,
   title VARCHAR(200),
   publishDate DATETIME,
@@ -65,7 +65,7 @@ GROUP BY videoId
 ORDER BY likeCount DESC
 LIMIT 5;
 ```
-<img src="/images/query_top_5_liked_videos.PNG" width="600" height="400">
+<img src="/images/top_5_liked_videos.png" width="700" height="350">
 
 ### Which videos have the highest dislike percentage?
 ```sql
@@ -79,11 +79,7 @@ GROUP BY videoId
 ORDER BY 2 DESC
 LIMIT 3;
 ```
-
-<details>
-  <summary>Click to expand</summary>
-  <img src="/images/query_dislike_ratio.PNG" width="900" height="500">
-</details>
+<img src="/images/dislike_ratio.png" width="900" height="400">
 
 ### Which users have commented the most often across all the YouTube videos from 3Blue1Brown?
 ```sql
@@ -96,11 +92,7 @@ GROUP BY authorId
 ORDER BY COUNT(authorName) DESC
 LIMIT 10;
 ```
-
-<details>
-  <summary>Click to expand</summary>
-  <img src="/images/query_top_commentors.PNG" width="700" height="500">
-</details>
+<img src="/images/top_commentors.png" width="700" height="350">
 
 ### For the user who has the most amount of comments, what were the top 5 videos that they commented on?
 ```sql
@@ -121,10 +113,7 @@ GROUP BY s.title
 ORDER BY COUNT(c.authorName) DESC
 LIMIT 5;
 ```
-<details>
-  <summary>Click to expand</summary>
-  <img src="/images/query_top_commentor_videos.PNG" width="800" height="500">
-</details>
+<img src="/images/top_commentor_videos.png" width="800" height="350">
 
 ### Which comment has the most amount of likes, and on which video was it commented on?
 ```sql
@@ -141,9 +130,6 @@ WHERE c.likeCount = (SELECT
                       MAX(likeCount)
                     FROM comments);
 ```
+<img src="/images/query_most_liked_comment.PNG" width="800" height="350">
 
-<details>
-  <summary>Click to expand</summary>
-  <img src="/images/query_most_liked_comment.PNG" width="800" height="500">
-</details>
 

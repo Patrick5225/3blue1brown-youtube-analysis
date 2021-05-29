@@ -75,7 +75,7 @@ SELECT
 FROM video_stats
 GROUP BY videoId
 ORDER BY 2 DESC
-LIMIT 3;
+LIMIT 5;
 
 # Which users have commented most often across all the videos from 3blue1brown?
 SELECT
@@ -95,7 +95,12 @@ SELECT
 FROM video_stats s
 INNER JOIN comments c
 	ON s.videoId = c.videoId
-WHERE authorId = 'UCGhQcael1605jqEQJQgIUJg'
+WHERE authorId = (SELECT
+					authorId
+				FROM comments
+				GROUP BY authorId
+				ORDER BY COUNT(authorName) DESC
+				LIMIT 1)
 GROUP BY s.title
 ORDER BY COUNT(c.authorName) DESC
 LIMIT 5;
